@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    background: black;
+}
+header{
+    box-sizing: border-box;
+    padding: 10px, 100px;
+}
+nav {
+    width: 100%;
+    height: 50px;
+    background: rgba(0,0,0,.8);
+    border-top: 1px solid rgba(255,255,255,.2);
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    position: sticky;
+    top: 0;
+}
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0, 100px;
+    justify-content: space-around;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 0, 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+}
+nav ul li a:hover,
+nav ul li a.active {
+    background: rgb(245, 91, 44);
+}
+section {
+    width: 100%;
+    height: 100vh;
+}
+section.sec1{
+    background: url(https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+}
+section.sec2{
+    padding: 100px;
+    box-sizing: border-box;
+    height: auto;
+    background-image: url(https://images.unsplash.com/photo-1521791055366-0d553872125f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80);
+    background-size: cover;
+    background-position: bottom;
+}
+section.sec2 h2{
+    padding: 15px;
+    margin: 0;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+}
+section.sec2 p{
+    color: #000000;
+    font-size: 17px;
+    padding: 20px;
+    font-family: , 'Arial Narrow Bold', sans-serif;
+}
+.topfoot {
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 200px;
+}
+.foot-link {
+    width: 100%;
+    padding: 15px;
+    justify-content: center;
+    list-style: none;
+}
+.foot-link h3 {
+    padding-bottom: 0.8rem;
+    color: rgb(255, 255, 255);
+    margin: 15px;
+    font-size: 20px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foot-link ul li {
+    text-align: center;
+    font-size: 15px;
+    padding: 2px;
+}
+.list {
+    justify-content: center;
+    text-decoration: none;
+    margin: auto;
+}
+.foot-link ul li a {
+    text-decoration: none;
+    color: rgb(133,144,137);
+    font-weight: 350;
+}
+.foot-link ul li :hover {
+    color: #ffffff;
+    transition: 0.5s ease-out;
+}
+.footer-email-form h2 {
+    margin-bottom: 10px;
+    color: rgb(133,144,137);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-email-form {
+    padding: 1rem;
+    background-color: black;
+    text-align: center;
+}
+#footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font size: 1rem;
+    margin-bottom: 1rem;
+}
+#footer-email::placeholder {
+    color: rgb(119, 115, 115);
+    
+}
+#footer-email-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgb(133,144,137);
+    outline: none;
+    border: none;
+    color: rgb(0, 0, 0);    
+}
+#footer-email-btn:hover{
+    cursor: pointer;
+    background-color: rgb(111, 113, 114);
+    color: #ffffff;
+    transition: all 0.5s ease-out;
+}
+.contact {
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    padding: 5%;
+}
+.contact p{
+    color: #ffffff;
+    text-align: justify;
+    font-size: 20px;
+}
+.close p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: black;
+    color: rgb(111, 113, 114);
+    font-size: 13px;
+}
